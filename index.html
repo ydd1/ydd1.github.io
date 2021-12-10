@@ -1,812 +1,254 @@
 <!DOCTYPE html>
-
-
-
-  
-
-
-<html class="theme-next muse use-motion" lang="zh-Hans">
+<html lang=en>
 <head>
-  <meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-<meta name="theme-color" content="#222">
-
-
-
-
-
-
-
-
-
-<meta http-equiv="Cache-Control" content="no-transform" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  <link href="lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
-
-
-
-
-
-
-
-<link href="lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
-
-<link href="css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
-
-
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
-
-
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
-
-
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
-
-
-  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
-
-
-
-
-
-  <meta name="keywords" content="Hexo, NexT" />
-
-
-
-
-
-
-
-
-
-
-<meta property="og:type" content="website">
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+    <meta property="og:type" content="website">
 <meta property="og:title" content="hl">
 <meta property="og:url" content="http://example.com/index.html">
 <meta property="og:site_name" content="hl">
 <meta property="og:locale">
 <meta property="article:author" content="ydd1">
 <meta name="twitter:card" content="summary">
+    
+    
+      
+        
+          <link rel="shortcut icon" href="/images/favicon.ico">
+        
+      
+      
+        
+          <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+        
+      
+      
+        
+          <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+        
+      
+    
+    <!-- title -->
+    <title>hl</title>
+    <!-- styles -->
+    
+<link rel="stylesheet" href="css/style.css">
 
-
-
-<script type="text/javascript" id="hexo.configurations">
-  var NexT = window.NexT || {};
-  var CONFIG = {
-    root: '',
-    scheme: 'Muse',
-    version: '5.1.4',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
-    fancybox: true,
-    tabs: true,
-    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
-    duoshuo: {
-      userId: '0',
-      author: '博主'
-    },
-    algolia: {
-      applicationID: '',
-      apiKey: '',
-      indexName: '',
-      hits: {"per_page":10},
-      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
-    }
-  };
-</script>
-
-
-
-  <link rel="canonical" href="http://example.com/"/>
-
-
-
-
-
-  <title>hl</title>
-  
-
-
-
-
-
-
-
-
+    <!-- persian styles -->
+    
+    <!-- rss -->
+    
+    
+	<!-- mathjax -->
+	
 <meta name="generator" content="Hexo 5.4.0"></head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
-
-  
+<body class="max-width mx-auto px3 ltr">
+    
+    <div class="content index py4">
+        
+          <header id="header">
+  <a href="index.html">
   
     
-  
-
-  <div class="container sidebar-position-left 
-  page-home">
-    <div class="headband"></div>
-
-    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-wrapper">
-  <div class="site-meta ">
+      <div id="logo" style="background-image: url(/images/logo.png);"></div>
     
-
-    <div class="custom-logo-site-title">
-      <a href="/"  class="brand" rel="start">
-        <span class="logo-line-before"><i></i></span>
-        <span class="site-title">hl</span>
-        <span class="logo-line-after"><i></i></span>
-      </a>
+  
+    <div id="title">
+      <h1>hl</h1>
     </div>
-      
-        <p class="site-subtitle"></p>
-      
-  </div>
-
-  <div class="site-nav-toggle">
-    <button>
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
-    </button>
-  </div>
-</div>
-
-<nav class="site-nav">
-  
-
-  
-    <ul id="menu" class="menu">
-      
-        
-        <li class="menu-item menu-item-home">
-          <a href="" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
-            
-            首页
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-tags">
-          <a href="" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
-            
-            标签
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-categories">
-          <a href="" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
-            
-            分类
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-archives">
-          <a href="" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
-            
-            归档
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-about">
-          <a href="" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
-            
-            关于
-          </a>
-        </li>
-      
-
-      
+  </a>
+  <div id="nav">
+    <ul>
+      <li class="icon">
+        <a href="#" aria-label="Menu"><i class="fas fa-bars fa-2x"></i></a>
+      </li>
+      <!--
+     --><li><a href="index.html">Home</a></li><!--
+   --><!--
+     --><li><a href="/about/">About</a></li><!--
+   --><!--
+     --><li><a href="/archives/">Writing</a></li><!--
+   --><!--
+     --><li><a href="/tags/">tags</a></li><!--
+   -->
     </ul>
-  
-
-  
-</nav>
-
-
-
- </div>
-    </header>
-
-    <main id="main" class="main">
-      <div class="main-inner">
-        <div class="content-wrap">
-          <div id="content" class="content">
-            
-  <section id="posts" class="posts-expand">
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://example.com2021/12/10/my/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="hl">
-    </span>
-
-    
-      <header class="post-header">
+  </div>
+</header>
 
         
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="2021/12/10/my/" itemprop="url">my</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2021-12-10T19:36:46+08:00">
-                2021-12-10
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
+        <section id="about">
+  
+  
+    <p>
+      Find me on
       
       
-
       
         
-          
-            <h2 id="12321">12321</h2>
-<p>213213</p>
-<p>21</p>
-<p>££</p>
-<div class="markdown-them-math-block">$$$$</div>
-          
+          <a class="icon" target="_blank" rel="noopener" href="http://github.com/ydd1" aria-label="github">
+            <i class="fab fa-github"></i><!--
+      ---></a><!--
+    ---><!--
+    --->, 
+        
+      
+        
+          <a class="icon" target="_blank" rel="noopener" href="index.html" aria-label="twitter">
+            <i class="fab fa-twitter"></i><!--
+      ---></a><!--
+    ---><!--
+    --->, 
+        
+      
+        
+          <a class="icon" target="_blank" rel="noopener" href="index.html" aria-label="facebook">
+            <i class="fab fa-facebook"></i><!--
+      ---></a><!--
+    ---><!--
+    --->, 
+        
+      
+        
+          <a class="icon" target="_blank" rel="noopener" href="index.html" aria-label="linkedin">
+            <i class="fab fa-linkedin"></i><!--
+      ---></a><!--
+    ---><!--
+    ---> and 
+        
+      
+        
+          <a class="icon" target="_blank" rel="noopener" href="zz01024@outlook.com" aria-label="mail">
+            <i class="fas fa-envelope"></i><!--
+      ---></a>
+        <!--
+    --->.
+        
+      
+    </p>
+  
+</section>
+
+<section id="writing">
+  <span class="h1"><a href="/archives/">Writing</a></span>
+  
+  <ul class="post-list">
+    
+    
+      
+    
+    
+      <li class="post-item">
+        
+    <div class="meta">
+      
+        
+          <time datetime="2021-12-10T14:37:32.290Z" itemprop="dateModified">2021-12-10</time>
         
       
     </div>
-    
-    
-    
 
-    
 
+        <span>
     
-
+        <a class="" href="2021/12/10/cisco%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE/">cisco常用配置</a>
     
 
-    <footer class="post-footer">
-      
 
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
+</span>
+      </li>
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://example.com2021/12/10/cisco%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="hl">
-    </span>
-
-    
-      <header class="post-header">
-
+      <li class="post-item">
         
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="2021/12/10/cisco%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE/" itemprop="url">cisco常用配置</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2021-12-10T19:36:46+08:00">
-                2021-12-10
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
+    <div class="meta">
       
         
-          
-            <p>常用命令</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">Switch&gt;En //进入特权模式</span><br><span class="line"></span><br><span class="line">Switch#con //进入全局配置模式</span><br><span class="line"></span><br><span class="line">Switch(config)#inter vlan 1(默认交换机的所有端口都在VLAN1中)// 创建并进入VLAN 1的接口视图</span><br><span class="line"></span><br><span class="line">Switch(config-if)#ip address 192.168.1.1 255.255.255.0//在VLAN 1 接口上配置交换机远程管理的IP地址</span><br><span class="line"></span><br><span class="line">Switch(config-if)#no shutdown //开启接口</span><br><span class="line"></span><br><span class="line">Switch(config-if)#exit//回到全局配置模式</span><br><span class="line"></span><br><span class="line">Switch(config)#line vty 0 4 //进入远程登录用户管理视图，0-4个用户</span><br><span class="line"></span><br><span class="line">Switch(config-line)#login //打开登录认证功能</span><br><span class="line"></span><br><span class="line">Switch(config-line)#password 5ijsj //配置远程登录的密码为5ijsj，密码明码显示</span><br><span class="line"></span><br><span class="line">Switch(config-line)#privilege level 3 //配置远程登录用户的权限为最高级别权限3</span><br><span class="line"></span><br><span class="line">Switch(config-line)#end //退出到特权模式</span><br><span class="line"></span><br><span class="line">Switch#show run //显示当前交换机配置情况</span><br></pre></td></tr></table></figure>
-<br>
-<p>删除vlan10</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">Switch#con</span><br><span class="line"></span><br><span class="line">Switch(config)#no int vlan 10</span><br><span class="line">Switch(config)#no vlan 10</span><br><span class="line">Switch(config)#exit</span><br><span class="line">Switch#</span><br></pre></td></tr></table></figure>
-<br>
-<p>vlan划分：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">vlan 10;20;30;50</span><br><span class="line">int vlan 10</span><br><span class="line">ip add 192.168.10.1 255.255.255.0</span><br><span class="line">int vlan 20</span><br><span class="line">ip add 192.168.20.1 255.255.255.0</span><br><span class="line">int eth 1/0/1</span><br><span class="line">switch mode access						//强制成为access接口</span><br><span class="line">sw acc vlan 10							//将vlan 10 划分到eth1/0/1接口</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">分配多个接口给一个vlan：</span><br><span class="line">int eth 1/0/11-24</span><br><span class="line">sw access|trunk vlan 101</span><br></pre></td></tr></table></figure>
-<br>
-<p><img src="https://ydd1dd.oss-cn-hangzhou.aliyuncs.com/blog/20200117201157647-20210508171716778.png" alt="img"></p>
-<br>
-<p>子网划分：</p>
-<p><img src="https://ydd1dd.oss-cn-hangzhou.aliyuncs.com/blog/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzc1MTYxOQ==,size_16,color_FFFFFF,t_70.png" alt=""></p>
-<p>​				A: 0.0.0.0-127.255.255，其中段0和127不可用<br>
-​				B: 128.0.0.0-191.255.255.255<br>
-​				C: 192.0.0.0-223.255.255.255<br>
-​				D: 224.0.0.0-239.255.255.255<br>
-​				E: 240.0.0.0-255.255.255.255，其中段255不可用</p>
-<br>
-<h3 id="cidr值:">CIDR值:</h3>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">　　1.掩码255.0.0.0:/8(A类地址默认掩码)</span><br><span class="line">　　2.掩码255.128.0.0:/9</span><br><span class="line">　　3.掩码255.192.0.0:/10</span><br><span class="line">　　4.掩码255.224.0.0:/11</span><br><span class="line">　　5.掩码255.240.0.0:/12</span><br><span class="line">　　6.掩码255.248.0.0:/13</span><br><span class="line">　　7.掩码255.252.0.0:/14</span><br><span class="line">　　8.掩码255.254.0.0:/15</span><br><span class="line">　　9.掩码255.255.0.0:/16(B类地址默认掩码)</span><br><span class="line">　　10.掩码255.255.128.0:/17</span><br><span class="line">　　11.掩码255.255.192.0:/18</span><br><span class="line">　　12.掩码255.255.224.0:/19</span><br><span class="line">　　13.掩码255.255.240.0:/20</span><br><span class="line">　　14.掩码255.255.248.0:/21</span><br><span class="line">　　15.掩码255.255.252.0:/22</span><br><span class="line">　　16.掩码255.255.254.0:/23</span><br><span class="line">　　17.掩码255.255.255.0:/24(C类地址默认掩码)</span><br><span class="line">　　18.掩码255.255.255.128:/25</span><br><span class="line">　　19.掩码255.255.255.192:/26</span><br><span class="line">　　20.掩码255.255.255.224:/27</span><br><span class="line">　　21.掩码255.255.255.240:/28</span><br><span class="line">　　22.掩码255.255.255.248:/29</span><br><span class="line">　　23.掩码255.255.255.252:/30</span><br><span class="line">　　Subnetting Class A,B&amp;C Address</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<h2 id="ap上线">ap上线</h2>
-<h3 id="1设置vlan">1.设置VLAN</h3>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">AC(config)#vlan 2		//创建VLAN2</span><br><span class="line">AC(config-vlan2)#vlan 3		//创建VLAN3</span><br><span class="line">AC(config-vlan3)#int vlan 1 	//进入Vlan1的SVI接口</span><br><span class="line">AC(config-if-vlan1)#ip ad 192.168.1.254 255.255.255.0		//设置IP地址	</span><br><span class="line">AC(config-if-vlan1)#int vlan 2		//进入VLAN2的SVI接口</span><br><span class="line">AC(config-if-vlan2)#ip ad 192.168.2.254 255.255.255.0		//设置IP地址</span><br><span class="line">AC(config-if-vlan2)#int vlan 3		//进入VLAN3的SVI接口</span><br><span class="line">AC(config-if-vlan3)#ip ad 192.168.3.254 255.255.255.0		//设置IP地址</span><br><span class="line">AC(config-if-vlan3)#int e1/0/1</span><br><span class="line">AC(config-if-ethernet1/0/1)#sw mo trunk 		//更改接口模式为Trunk</span><br></pre></td></tr></table></figure>
-<p><strong>注意，这里不设置Native VLAN</strong></p>
-<h3 id="2设置dhcp">2.设置DHCP</h3>
-<p><strong>AP</strong></p>
-<p>设置管理VLAN</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">AP# set management vlan-id 3	//设置管理VLAN为VLAN3</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>设置管理VLAN之后，从AP发出的管理/控制报文都会打上VLAN 3的TAG，也可以接受带VLAN3 TAG的管理报文。</p>
-</blockquote>
-<p><strong>AC</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">AC(config)#ip dh pool VLAN1</span><br><span class="line">AC(dhcp-vlan1-config)#network-address 192.168.1.0 255.255.255.0</span><br><span class="line">AC(dhcp-vlan1-config)#default-router 192.168.1.254</span><br><span class="line">AC(dhcp-vlan1-config)#!                    </span><br><span class="line">AC(config)#ip dh pool VLAN2</span><br><span class="line">AC(dhcp-vlan2-config)#network-address 192.168.2.0 255.255.255.0</span><br><span class="line">AC(dhcp-vlan2-config)#default-router 192.168.2.254</span><br><span class="line">AC(dhcp-vlan2-config)#!</span><br><span class="line">AC(config)#ip dh pool VLAN3</span><br><span class="line">AC(dhcp-vlan3-config)#network-address 192.168.3.0 255.255.255.0</span><br><span class="line">AC(dhcp-vlan3-config)#default-router 192.168.3.254</span><br><span class="line">AC(dhcp-vlan3-config)#!</span><br><span class="line">AC(config)#service dhcp</span><br></pre></td></tr></table></figure>
-<h3 id="3静态绑定dhcp">3.静态绑定DHCP</h3>
-<p><strong>AC</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">AC(config)#show ip dh binding </span><br><span class="line">Total dhcp binding items: 1, the matched: 1</span><br><span class="line">IP address          Hardware address         Lease expiration         Type</span><br><span class="line">192.168.3.1         aa-aa-aa-aa-aa-aa        Mon Jan 02 00:12:00 2006 Dynamic</span><br><span class="line">AC(config)#ip dhcp pool AP</span><br><span class="line">AC(dhcp-ap-config)#hardware-address aa-aa-aa-aa-aa-aa</span><br><span class="line">AC(dhcp-ap-config)#host 192.168.3.10</span><br><span class="line">AC(dhcp-ap-config)#default-router 192.168.3.254</span><br><span class="line">AC(dhcp-ap-config)#!</span><br></pre></td></tr></table></figure>
-<p><strong>AP</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">AP# set management dhcp-status down</span><br><span class="line">AP# set management dhcp-status up</span><br></pre></td></tr></table></figure>
-<h3 id="4开启无线功能">4.开启无线功能</h3>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">AC(config-wireless)#no auto-ip-assign </span><br><span class="line">AC(config-wireless)#static-ip 192.168.3.254</span><br><span class="line">AC(config-wireless)#ap authe none </span><br><span class="line">AC(config-wireless)#discovery vlan-list 3</span><br><span class="line">AC(config-wireless)#enable</span><br></pre></td></tr></table></figure>
-<h3 id="5配置无线">5.配置无线</h3>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">AC(config-wireless)#network 1</span><br><span class="line">AC(config-network)#ssid VLAN1-Wireless-LAB</span><br><span class="line">AC(config-network)#vlan 1</span><br><span class="line">AC(config-network)#network 2</span><br><span class="line">AC(config-network)#ssid VLAN2-Wireless-LAB</span><br><span class="line">AC(config-network)#vlan 2</span><br><span class="line">AC(config-network)#network 3</span><br><span class="line">AC(config-network)#ssid VLAN3-Wireless-LAB</span><br><span class="line">AC(config-network)#vlan 3</span><br><span class="line">AC(config-network)#!</span><br><span class="line">AC(config-wireless)#ap profile 1</span><br><span class="line">AC(config-ap-profile)#hwtype 29</span><br><span class="line">AC(config-ap-profile)#management vlan 3</span><br><span class="line">AC(config-ap-profile)#radio 1</span><br><span class="line">AC(config-ap-profile-radio)#vap 1</span><br><span class="line">AC(config-ap-profile-vap)#enable </span><br><span class="line">AC(config-ap-profile-vap)#vap 2</span><br><span class="line">AC(config-ap-profile-vap)#enable </span><br><span class="line">AC(config-ap-profile-vap)#!</span><br><span class="line">AC(config-ap-profile-radio)#!</span><br><span class="line">AC(config-ap-profile)#!</span><br><span class="line">AC#wireless ap prof ap 1</span><br><span class="line">All configurations will be send to the aps associated to this profile and associated clients on these aps will be disconnected. Are you sure you want to apply the profile configuration? [Y/N] y</span><br><span class="line">AP Profile apply is in progress.</span><br></pre></td></tr></table></figure>
-
-          
+          <time datetime="2021-12-10T12:24:43.305Z" itemprop="dateModified">2021-12-10</time>
         
       
     </div>
-    
-    
-    
 
-    
 
+        <span>
     
-
+        <a class="" href="2021/12/10/my/">my</a>
     
 
-    <footer class="post-footer">
-      
 
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
+</span>
+      </li>
+    
+  </ul>
   
-  
-  
-  </article>
-
-
     
-  </section>
 
   
+</section>
 
 
-          </div>
-          
 
-
-          
-
-        </div>
         
-          
-  
-  <div class="sidebar-toggle">
-    <div class="sidebar-toggle-line-wrap">
-      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
-    </div>
-  </div>
-
-  <aside id="sidebar" class="sidebar">
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy;
     
-    <div class="sidebar-inner">
-
-      
-
-      
-
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
-        <div class="site-overview">
-          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-            
-              <p class="site-author-name" itemprop="name"></p>
-              <p class="site-description motion-element" itemprop="description"></p>
-          </div>
-
-          <nav class="site-state motion-element">
-
-            
-              <div class="site-state-item site-state-posts">
-              
-                <a href="/archives/%7C%7C%20archive">
-              
-                  <span class="site-state-item-count">2</span>
-                  <span class="site-state-item-name">日志</span>
-                </a>
-              </div>
-            
-
-            
-
-            
-              
-              
-              <div class="site-state-item site-state-tags">
-                <a href="tags/index.html">
-                  <span class="site-state-item-count">1</span>
-                  <span class="site-state-item-name">标签</span>
-                </a>
-              </div>
-            
-
-          </nav>
-
-          
-
-          
-
-          
-          
-
-          
-          
-
-          
-
-        </div>
-      </section>
-
-      
-
-      
+    
+    2016-2021
+    ydd1
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+        <!--
+       --><li><a href="index.html">Home</a></li><!--
+     --><!--
+       --><li><a href="/about/">About</a></li><!--
+     --><!--
+       --><li><a href="/archives/">Writing</a></li><!--
+     --><!--
+       --><li><a href="/tags/">tags</a></li><!--
+     -->
+      </ul>
+    </nav>
+  </div>
+</footer>
 
     </div>
-  </aside>
+    <!-- styles -->
 
 
-        
-      </div>
-    </main>
 
-    <footer id="footer" class="footer">
-      <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2021</span>
-  <span class="with-love">
-    <i class="fa fa-user"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">ydd1</span>
+  <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" crossorigin="anonymous" onload="this.onload=null;this.rel='stylesheet'"/>
 
-  
-</div>
 
+    <!-- jquery -->
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" crossorigin="anonymous"></script> 
 
-  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
 
 
 
-  <span class="post-meta-divider">|</span>
+<!-- clipboard -->
 
 
+<script src="js/main.js"></script>
 
-  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
+<!-- search -->
 
+<!-- Google Analytics -->
 
+<!-- Baidu Analytics -->
 
+<!-- Cloudflare Analytics -->
 
-        
+<!-- Umami Analytics -->
 
+<!-- Disqus Comments -->
 
-
-
-
-
-
-        
-      </div>
-    </footer>
-
-    
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-        
-      </div>
-    
-
-    
-
-  </div>
-
-  
-
-<script type="text/javascript">
-  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
-    window.Promise = null;
-  }
-</script>
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    <script type="text/javascript" src="lib/jquery/index.js?v=2.1.3"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="lib/velocity/velocity.min.js?v=1.2.1"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-  
-
-
-  
-
-
-  <script type="text/javascript" src="js/src/utils.js?v=5.1.4"></script>
-
-  <script type="text/javascript" src="js/src/motion.js?v=5.1.4"></script>
-
-
-
-  
-  
-
-  
-
-  
-
-
-  <script type="text/javascript" src="js/src/bootstrap.js?v=5.1.4"></script>
-
-
-
-  
-
-
-  
-
-
-
-
-	
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-
-  
+<!-- utterances Comments -->
 
 </body>
 </html>
